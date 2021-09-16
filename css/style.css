@@ -1,31 +1,28 @@
 .navbar-brand,
 h1,
-.h1,
-h2,
-.h2 {
+.h1 {
   color: #e92569;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
 }
 
 body {
-  background: radial-gradient(#ffffff, #e5e5e5);
-  font-family: "Lato", sans-serif;
+  background: radial-gradient(#ffffff, #e5e5e5) !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 footer {
   background-color: #ffffff;
+  color: #767676;
 }
 
 nav {
   background-color: #efefef;
+  box-shadow: "";
 }
 
 nav .navbar-brand {
   font-style: italic;
-}
-
-nav .nav-link {
-  color: black;
+  padding-left: 5px;
 }
 
 nav .active {
@@ -37,11 +34,49 @@ nav .form-control {
   border: none;
 }
 
+nav .nav-link {
+  color: black;
+  padding-left: 10px !important;
+}
+
 nav .btn {
   background-color: #e92569;
   color: white;
   border: none;
   border-radius: 0px;
+}
+
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card .button-ekstra {
+  background: #767676;
+}
+
+.card .btn {
+  color: white;
+}
+
+main h1, main .h1 {
+  font-size: 1.7rem;
+}
+
+main .accordion .accordion-button {
+  color: #e92569;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: none;
+  border-bottom: none;
+}
+
+main .accordion .accordion-button::after {
+  display: none;
 }
 
 /*!
@@ -162,16 +197,12 @@ h1,
   }
 }
 
-
-h2,
-.h2 {
+h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
-  
-  h2,
-  .h2 {
+  h2, .h2 {
     font-size: 2rem;
   }
 }

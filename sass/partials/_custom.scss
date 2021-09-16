@@ -1,17 +1,17 @@
 $primary: #e92569;
-$secondary-color: #e5e5e5;
 $background-color: #efefef;
 $black-color: #0a0a0a;
+$gray-color: #767676;
+
 .navbar-brand,
-h1,
-h2 {
+h1 {
   color: $primary;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
 }
 
 body {
-  background: radial-gradient(#ffffff, #e5e5e5);
-  font-family: "Lato", sans-serif;
+  background: radial-gradient(#ffffff, #e5e5e5) !important;
+  font-family: "Lato", sans-serif !important;
 }
 
 //  font-family: 'Lato', sans-serif; //
