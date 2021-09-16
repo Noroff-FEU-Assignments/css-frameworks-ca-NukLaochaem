@@ -1,0 +1,22 @@
+nav {
+  background-color: $background-color;
+  .navbar-brand {
+    font-style: italic;
+  }
+  .nav-link {
+    color: black;
+  }
+  .active {
+    background-color: white;
+  }
+  .form-control {
+    border-radius: 0px;
+    border: none;
+  }
+  .btn {
+    background-color: $primary;
+    color: white;
+    border: none;
+    border-radius: 0px;
+  }
+}
