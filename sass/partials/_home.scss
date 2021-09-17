@@ -1,19 +1,32 @@
-main {
-  h1 {
-    font-size: 1.7rem;
+.carousel-indicators {
+  &.active {
+    color: $primary;
   }
+  .indicators {
+    color: red;
+    background-color: red;
+  }
+}
 
-  .accordion {
-    .accordion-button {
-      color: $primary;
-      background-color: white;
-      font-family: "Lato", sans-serif;
-      font-size: 1.2rem;
-      box-shadow: none;
-      border-bottom: none;
-    }
-    .accordion-button::after {
-      display: none;
-    }
+.accordion {
+  .accordion-button {
+    color: $primary;
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    box-shadow: none;
+    border-bottom: none;
+  }
+  .accordion-button::after {
+    display: none;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: white;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  .accordion-body {
+    border-top: 1px solid $primary;
   }
 }

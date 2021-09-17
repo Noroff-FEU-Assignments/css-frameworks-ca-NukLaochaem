@@ -8,6 +8,7 @@ h1,
 .h1 {
   color: #e92569;
   font-family: "Playfair Display", serif !important;
+  font-size: 1.7rem;
 }
 
 footer {
@@ -17,7 +18,6 @@ footer {
 
 nav {
   background-color: #efefef;
-  box-shadow: "";
 }
 
 nav .navbar-brand {
@@ -61,11 +61,16 @@ nav .navbar-toggler:focus {
   color: white;
 }
 
-main h1, main .h1 {
-  font-size: 1.7rem;
+.carousel-indicators.active {
+  color: #e92569;
 }
 
-main .accordion .accordion-button {
+.carousel-indicators .indicators {
+  color: red;
+  background-color: red;
+}
+
+.accordion .accordion-button {
   color: #e92569;
   background-color: white;
   font-family: "Lato", sans-serif;
@@ -74,8 +79,20 @@ main .accordion .accordion-button {
   border-bottom: none;
 }
 
-main .accordion .accordion-button::after {
+.accordion .accordion-button::after {
   display: none;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+.accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion .accordion-body {
+  border-top: 1px solid #e92569;
 }
 
 /*!
