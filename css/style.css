@@ -1,13 +1,13 @@
+body {
+  background: radial-gradient(#ffffff, #e5e5e5) !important;
+  font-family: "Lato", sans-serif !important;
+}
+
 .navbar-brand,
 h1,
 .h1 {
   color: #e92569;
   font-family: "Playfair Display", serif !important;
-}
-
-body {
-  background: radial-gradient(#ffffff, #e5e5e5) !important;
-  font-family: "Lato", sans-serif !important;
 }
 
 footer {
@@ -36,7 +36,6 @@ nav .form-control {
 
 nav .nav-link {
   color: black;
-  padding-left: 10px !important;
 }
 
 nav .btn {
