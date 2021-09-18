@@ -8,7 +8,7 @@ h1,
 .h1 {
   color: #e92569;
   font-family: "Playfair Display", serif !important;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 footer {
@@ -36,6 +36,7 @@ nav .form-control {
 
 nav .nav-link {
   color: black;
+  padding: 6px 0;
 }
 
 nav .btn {
@@ -47,6 +48,10 @@ nav .btn {
 
 nav .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.page-item {
+  border: 1px solid #e92569;
 }
 
 .card {
@@ -61,8 +66,48 @@ nav .navbar-toggler:focus {
   color: white;
 }
 
+.contact-details {
+  color: #767676;
+}
+
+.location_text {
+  margin-left: 77px;
+}
+
+.form-input {
+  background: #efefef;
+}
+
+.form-input form {
+  color: #767676;
+}
+
+.form-input .form-check-input {
+  background-color: #e92569;
+  padding: 14px;
+}
+
+.form-input .form-check-label {
+  width: 90%;
+}
+
+.form-input .btn {
+  background-color: #767676;
+}
+
+.form-input .https_input {
+  display: flex;
+}
+
+.form-input .https_btn {
+  color: white;
+  background-color: #c7c7c7;
+  border: none;
+}
+
 .carousel-indicators.active {
   color: #e92569;
+  background: red;
 }
 
 .carousel-indicators .indicators {
@@ -93,6 +138,14 @@ nav .navbar-toggler:focus {
 
 .accordion .accordion-body {
   border-top: 1px solid #e92569;
+}
+
+.tab-content .tab-pane {
+  background-color: white;
+}
+
+.tab-content .tab-text {
+  margin-bottom: 15%;
 }
 
 /*!

@@ -1,6 +1,7 @@
 .carousel-indicators {
   &.active {
     color: $primary;
+    background: red;
   }
   .indicators {
     color: red;
@@ -28,5 +29,13 @@
   }
   .accordion-body {
     border-top: 1px solid $primary;
+  }
+}
+.tab-content {
+  .tab-pane {
+    background-color: white;
+  }
+  .tab-text {
+    margin-bottom: 15%;
   }
 }

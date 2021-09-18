@@ -1,0 +1,32 @@
+.contact-details {
+  color: $gray-color;
+}
+.location_text {
+  margin-left: 77px;
+}
+
+.form-input {
+  background: $background-color;
+  form {
+    color: $gray-color;
+  }
+
+  .form-check-input {
+    background-color: $primary;
+    padding: 14px;
+  }
+  .form-check-label {
+    width: 90%;
+  }
+  .btn {
+    background-color: $gray-color;
+  }
+  .https_input {
+    display: flex;
+  }
+  .https_btn {
+    color: white;
+    background-color: #c7c7c7;
+    border: none;
+  }
+}
