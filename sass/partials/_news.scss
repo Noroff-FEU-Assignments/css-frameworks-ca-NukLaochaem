@@ -4,10 +4,10 @@
 .card {
   border-radius: 1rem;
 
-  .button-ekstra {
+  & .button-ekstra {
     background: $gray-color;
   }
-  .btn {
+  & .btn {
     color: white;
   }
 }

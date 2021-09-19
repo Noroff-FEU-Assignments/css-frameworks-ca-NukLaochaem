@@ -1,5 +1,5 @@
 .carousel-indicators {
-  .indicators {
+  & .indicators {
     height: 27px !important;
     margin: 0 10px !important;
     opacity: 1 !important;
@@ -11,7 +11,7 @@
 }
 
 .accordion {
-  .accordion-button {
+  & .accordion-button {
     color: $primary;
     background-color: white;
     font-family: "Lato", sans-serif;
@@ -19,24 +19,21 @@
     box-shadow: none;
     border-bottom: none;
   }
-  .accordion-button::after {
+  & .accordion-button::after {
     display: none;
   }
-  .accordion-button:not(.collapsed) {
+  & .accordion-button:not(.collapsed) {
     background-color: white;
   }
-  .accordion-button:focus {
-    box-shadow: none;
-  }
-  .accordion-body {
+  & .accordion-body {
     border-top: 1px solid $primary;
   }
 }
 .tab-content {
-  .tab-pane {
+  & .tab-pane {
     background-color: white;
   }
-  .tab-text {
+  & .tab-text {
     margin-bottom: 15%;
   }
 }

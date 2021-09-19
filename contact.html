@@ -17,103 +17,106 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg shadow-sm px-lg-5 fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">The YAY Company</a>
-      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0" aria-current="page" href="news.html">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0 active rounded" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success rounded-end" type="submit">Go</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-
-  <main>
-    <div class="container mb-5">
-      <div class="row ">
-        <div class="contact-details p-4 col-12 col-lg-5 order-lg-1 my-lg-4 ps-lg-5 ms-lg-5">
-          <div class="contact-email py-2">
-            <i class="fas fa-envelope fa-2x"></i><span class="px-5">Hello@yay.com</span>
-          </div>
-          <div class="contact-phone py-4">
-            <i class="fas fa-phone fa-2x"></i><span class="px-5">123 456 7890</span>
-          </div>
-          <div class="contact-location py-3">
-            <div>
-              <i class="fas fa-map-marker-alt fa-2x"></i>
-              <span class="px-5">123 Some Street
-                <p class="location_text pt-3">Somewhere</p>
-                <p class="location_text">Some City</p>
-                <p class="location_text">10000</p>
-              </span>
-            </div>
-
-          </div>
-        </div>
-
-        <h1 class="px-4 mb-0 pt-lg-5">Submit your details</h1>
-        <div class="form-input my-5 col-12 col-lg-6 order-lg-0 shadow-sm my-lg-4">
-          <form class="p-3">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
-              <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Website</label>
-              <div class="https_input">
-                <button class="https_btn d-none d-lg-block">https://</button>
-                <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
-                  aria-describedby="emailHelp">
-              </div>
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-
-            <div class="form-floating">Message
-              <textarea class="form-control border-0" id="floatingTextarea2" style="height: 200px"></textarea>
-              <label for="floatingTextarea2"></label>
-            </div>
-
-            <div class="form-check py-3 mb-3 ">
-              <input type="checkbox" class="form-check-input border-0" id="exampleCheck1">
-              <label class="form-check-label px-4 pt-1" for="exampleCheck1">Allow us to sell your personal details to
-                whomever we
-                want</label>
-            </div>
-
-            <button type="submit" class="btn btn-primary py-2 mb-5 border-0 text-white"
-              style="width: 100%;">Submit</button>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg shadow-sm px-lg-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">The YAY Company</a>
+        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0" aria-current="page" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 mx-lg-3 my-2 my-lg-0 active rounded" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success rounded-end" type="submit">Go</button>
           </form>
         </div>
       </div>
-    </div>
-  </main>
+    </nav>
+
+    <main>
+      <div class="container mb-5">
+        <div class="row ">
+          <div class="contact-details p-4 col-12 col-lg-5 order-lg-1 my-lg-4 ps-lg-5 ms-lg-5">
+            <div class="contact-email py-2">
+              <i class="fas fa-envelope fa-2x"></i><span class="px-5">Hello@yay.com</span>
+            </div>
+            <div class="contact-phone py-4">
+              <i class="fas fa-phone fa-2x"></i><span class="px-5">123 456 7890</span>
+            </div>
+            <div class="contact-location py-3">
+              <div>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <span class="px-5">123 Some Street
+                  <p class="location_text pt-3">Somewhere</p>
+                  <p class="location_text">Some City</p>
+                  <p class="location_text">10000</p>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+          <h1 class="px-4 mb-0 pt-lg-5">Submit your details</h1>
+          <div class="form-input my-5 col-12 col-lg-6 order-lg-0 shadow-sm my-lg-4">
+            <form class="p-3">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Website</label>
+                <div class="https_input">
+                  <button class="https_btn d-none d-lg-block">https://</button>
+                  <input type="email" class="form-control border-0 py-2" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                </div>
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="form-floating">Message
+                <textarea class="form-control border-0" id="floatingTextarea2" style="height: 200px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div>
+
+              <div class="form-check py-3 mb-3 ">
+                <input type="checkbox" class="form-check-input border-0" id="exampleCheck1">
+                <label class="form-check-label px-4 pt-1" for="exampleCheck1">Allow us to sell your personal details to
+                  whomever we
+                  want</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary py-2 mb-5 border-0 text-white"
+                style="width: 100%;">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
 
   <footer class="footer">
     <div class="container">

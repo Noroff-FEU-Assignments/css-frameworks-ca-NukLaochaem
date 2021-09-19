@@ -7,24 +7,25 @@
 
 .form-input {
   background: $background-color;
-  form {
+
+  & form {
     color: $gray-color;
   }
 
-  .form-check-input {
+  & .form-check-input {
     background-color: $primary;
     padding: 14px;
   }
-  .form-check-label {
+  & .form-check-label {
     width: 90%;
   }
-  .btn {
+  & .btn {
     background-color: $gray-color;
   }
-  .https_input {
+  & .https_input {
     display: flex;
   }
-  .https_btn {
+  & .https_btn {
     color: white;
     background-color: #c7c7c7;
     border: none;

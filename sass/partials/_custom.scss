@@ -3,17 +3,27 @@ $background-color: #efefef;
 $black-color: #0a0a0a;
 $gray-color: #767676;
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   padding-top: 50px;
   background: radial-gradient(#ffffff, #e5e5e5) !important;
   font-family: "Lato", sans-serif !important;
-}
+  display: flex;
+  flex-direction: column;
 
-.navbar-brand,
-h1 {
-  color: $primary;
-  font-family: "Playfair Display", serif !important;
-  font-size: 1.5rem;
+  & .navbar-brand,
+  h1 {
+    color: $primary;
+    font-family: "Playfair Display", serif !important;
+    font-size: 1.5rem;
+  }
+  & .wrapper {
+    flex: 1 0 auto;
+  }
 }
 
 //  font-family: 'Lato', sans-serif; //

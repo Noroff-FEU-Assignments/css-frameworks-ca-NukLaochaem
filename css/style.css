@@ -1,20 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   padding-top: 50px;
   background: radial-gradient(#ffffff, #e5e5e5) !important;
   font-family: "Lato", sans-serif !important;
+  display: flex;
+  flex-direction: column;
 }
 
-.navbar-brand,
-h1,
-.h1 {
+body .navbar-brand,
+body h1,
+body .h1 {
   color: #e92569;
   font-family: "Playfair Display", serif !important;
   font-size: 1.5rem;
 }
 
-footer {
-  background-color: #ffffff;
-  color: #767676;
+body .wrapper {
+  flex: 1 0 auto;
 }
 
 nav {
@@ -49,6 +55,12 @@ nav .btn {
 
 nav .navbar-toggler:focus {
   box-shadow: none;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #767676;
+  flex-shrink: 0;
 }
 
 .page-item {
@@ -132,10 +144,6 @@ nav .navbar-toggler:focus {
 
 .accordion .accordion-button:not(.collapsed) {
   background-color: white;
-}
-
-.accordion .accordion-button:focus {
-  box-shadow: none;
 }
 
 .accordion .accordion-body {
@@ -254,16 +262,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.2;
 }
 
-
-h1,
-.h1 {
+h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
-  
-  h1,
-  .h1 {
+  h1, .h1 {
     font-size: 2.5rem;
   }
 }

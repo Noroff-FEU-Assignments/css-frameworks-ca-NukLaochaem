@@ -1,27 +1,27 @@
 nav {
   background-color: $background-color;
-  .navbar-brand {
+  & .navbar-brand {
     font-style: italic;
     padding-left: 5px;
   }
-  .active {
+  & .active {
     background-color: white;
   }
-  .form-control {
+  & .form-control {
     border-radius: 0px;
     border: none;
   }
-  .nav-link {
+  & .nav-link {
     color: black;
     padding: 6px 0;
   }
-  .btn {
+  & .btn {
     background-color: $primary;
     color: white;
     border: none;
     border-radius: 0px;
   }
-  .navbar-toggler:focus {
+  & .navbar-toggler:focus {
     box-shadow: none;
   }
 }
