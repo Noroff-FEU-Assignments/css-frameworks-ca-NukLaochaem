@@ -1,11 +1,12 @@
 .carousel-indicators {
-  &.active {
-    color: $primary;
-    background: red;
-  }
   .indicators {
-    color: red;
-    background-color: red;
+    height: 27px !important;
+    margin: 0 10px !important;
+    opacity: 1 !important;
+    border: none !important;
+  }
+  .active {
+    background-color: $primary !important;
   }
 }
 
